@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Happy Birthday!</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<style type="text/css">
+	body{
+		font-family: 'Dancing Script', cursive;
+		height: 100vh;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		margin: 0;
+		overflow: hidden;
+
+	}
+
+	.image{
+		background-image: url("img/bd1.jpg");
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+
+		z-index: -1;
+
+	}
+
+	.container{
+		width: 400px;
+		height: 300px;
+	
+		box-shadow: rgba(0,0,0,0.1);
+
+		position: absolute;
+		right: 170px;
+
+	}
+
+	.tt{
+		width: 500px;
+		height: 500px;
+	}
+
+	p{
+		width: 100%;
+		height: 100%;
+		color: #000;
+		font-size: 30px;
+	}
+
+	.btn{
+		font-size: 35px;
+		background-color: lightblue;
+		border-radius: 10px;
+
+		position: absolute;
+		bottom: 20px;
+		right: 20px;
+	}
+
+	.square{
+		width: 12px;
+		height: 12px;
+
+		position: absolute;
+		top: -100px;
+
+		transform: rotate(45deg);
+
+		animation-name: myani;
+		animation-duration: 8s;
+		animation-timing-function: linear;
+		animation-iteration-count: infinite;
+	}
+
+	.square:nth-child(1){
+		background-color: red;
+		left: 7%;
+		animation-delay: 3s;
+	}
+
+	.square:nth-child(2){
+		background-color: white;
+		left: 82%;
+		animation-delay: 0s;
+	}
+
+	.square:nth-child(3){
+		background-color: #ccc235;
+		left: 22%;
+		animation-delay: 0s;
+	}
+
+	.square:nth-child(4){
+		background-color: #ede8a4;
+		left: 51%;
+		animation-delay: 0s;
+	}
+
+	.square:nth-child(5){
+		background-color: #166b59;
+		left: 11%;
+		animation-delay: 0s;
+	}
+	.square:nth-child(6){
+		background-color: #1f590e;
+		left: 91%;
+		animation-delay: 1s;
+	}
+	.square:nth-child(7){
+		background-color: #4061ad;
+		left: 37%;
+		animation-delay: 0s;
+	}
+	.square:nth-child(8){
+		background-color: #bd1c77;
+		left: 42%;
+		animation-delay: 1s;
+	}
+
+	.square:nth-child(9){
+		background-color: silver;
+		left: 61%;
+		animation-delay: 0s;
+	}
+	.square:nth-child(10){
+		background-color: tomato;
+		left: 74%;
+		animation-delay: 2s;
+	}
+
+	.sq:nth-child(12){
+		background-color: blue;
+		left: 15%;
+		animation-delay: 4s;
+	}
+
+	.sq:nth-child(13){
+		background-color: yellow;
+
+		left: 45%;
+		animation-delay: 5s;
+	}
+
+	.square:nth-child(14){
+		background-color: #9dbd1c;
+
+		left: 55%;
+		animation-delay: 2s;
+	}
+
+	.square:nth-child(15){
+		background-color: green;
+
+		left: 67%;
+		animation-delay: 3s;
+	}
+
+	.square:nth-child(16){
+		background-color: #e67f53;
+		left: 32%;
+		animation-delay: 4s;
+	}
+
+	.square:nth-child(17){
+		background-color: yellow;
+
+		left: 85%;
+		animation-delay: 6s;
+	}
+
+	.square:nth-child(18){
+		background-color: #5ce03a;
+
+		left: 75%;
+		animation-delay: 7s;
+	}
+
+	.square:nth-child(19){
+		background-color: #6868bd;
+
+		left: 10%;
+		animation-delay: 2s;
+	}
+
+	.square:nth-child(20){
+		background-color: #b068bd;
+
+		left: 60%;
+		animation-delay: 5s;
+	}
+	
+	@keyframes myani{
+		0%{
+			top: -100px;
+		}
+
+		100%{
+			top: 100%;
+		}
+	}
+
+</style>
+<body>
+
+	<div class="image"></div>
+
+	<div class="container">
+		
+			<p>Happy Birthday, Sayar ! May you have the happiest day of all. I hope you know you are a kind and wonderful person. As you reach this birthday, may you achieve a splendid happiness and love. I wish you all the best and every day of your life have a happy and peaceful ending.</p>
+		
+	</div>
+
+	<button class="btn">Back</button>
+
+
+	<div class="tt">
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+	</div>
+
+</body>
+</html>
